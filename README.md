@@ -12,6 +12,9 @@ It must use below tensorflow and keras version, otherwise it will report error '
 
     pip install tensorflow==1.14
     pip install keras==2.2.5
+    
+    Or
+    pip install -r requirements.txt
 
 ## Install Streamlit
     pip3 install streamlit --update
