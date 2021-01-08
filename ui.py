@@ -16,7 +16,7 @@ models_list = [
         ]
 
 # all images in 'images' folder
-images = [image.split("\\")[1] for image in glob.glob(os.path.join("images", "*.jpg"))]
+images = [image.split("\")[1] for image in glob.glob(os.path.join("images", "*.jpg"))]
 
 st.sidebar.title("ImageNet")
 selected_image = st.sidebar.selectbox("Pick an image.", images)
