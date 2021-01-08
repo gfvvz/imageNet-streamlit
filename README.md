@@ -17,7 +17,7 @@ It must use below tensorflow and keras version, otherwise it will report error '
     pip install -r requirements.txt
 
 ## Install Streamlit
-    pip3 install streamlit --update
+    pip3 install streamlit
 
 ## How to run?
     streamlit run ui.py
